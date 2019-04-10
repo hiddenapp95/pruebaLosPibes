@@ -1,0 +1,36 @@
+body{
+	height: 1600px;
+}
+
+#pagina-productos{
+	width: 100%;
+	height: 500px;
+	background: lightgrey;
+
+	background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/GfRLKaE/videoblocks-digital-technology-background-pack_rxoqytdfm_thumbnail-full09.png);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor-productos{
+	border: 1px solid grey;
+	border-radius: 15px;
+	margin: 10px;
+	text-align: center;
+}
+
+#pagina-productos .contenedor-productos{
+	border: 1px solid red;
+}
+
+#pagina-productos .contenedor-productos p{
+	color: white;
+}
+
+#pagina-productos .contenedor-productos p:hover{
+	color: white;
+	background-color: #b375af;
+}
+
