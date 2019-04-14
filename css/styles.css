@@ -46,15 +46,21 @@ h5{
 
 }
 
+.nav_inicial ul li a{
+	color: #999;
+
+}
+
 .nav_inicial ul li:last-child{
 	border-right: none;
+	padding: 0 0 0 20px;
 
 }
 
 
 /* Fin de primer nav */
 
-/* Inicio de inicio */
+/* Inicio de segunda parte del header */
 
 .inicio{
 	height: 80px;
@@ -106,7 +112,7 @@ h5{
 }
 
 .b_categoria{
-	width: 25%;
+	width: 26%;
 	float: left;
 	padding: 2% 0;
 
@@ -123,25 +129,110 @@ select {
 }
 
 .b_boton{
-	width: 14.6%;
+	width: 13.64%;
 	height: 45px;
 	background-color: #0087ca;
 	float: left;
-	border-radius: 0px 50px 50px 0px;
+	border-radius: 0px 35px 35px 0px;
+}
+
+.b_boton_icon{
+	background-color: transparent; 
+	border:none; 
+	width: 100%; 
+	height: 44px; 
+	padding: 0 10% 0 0; 
+	cursor: pointer;
+}
+
+.search_icon{
+	font-size: 21px; 
+	color: #fff;
 }
 
 .cart_contenedor{
-	width: 20%;
-	height: 44px;
-	background-color: red;
-	float: left;
+	width: 17%;
+    height: 22px;
+    float: left;
+    padding: 29px 0;
 }
 
+.favoritos{
+	width: 50%;
+	float: left;
+	text-align: center;
 
+}
 
+.fav_icon{
+	font-size: 22px; 
+	color: #0087ca;
+}
 
+.cart{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
 
-/* Fin de inicio */
+.cart_icon{
+	font-size: 22px; 
+	color: #0087ca;
+}
+
+.numb{
+	background-color: #ffa013;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+	font-weight: 900;
+	z-index: 9;
+	float: right;
+	position: relative;
+	top: 10px;
+	left: -35px;
+}
+/* Fin de segunda parte del header */
+/* Inicio NAV */
+
+.navegador{
+	background-color: #0087ca;
+	max-width:100%;
+	padding: 0px 80px;
+}
+
+.navegador ul{
+	text-align: center;
+    padding: 18px;
+    margin: 0px;
+}
+
+.navegador ul li{
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 900;
+	color: #fff;
+	padding: 0 20px;
+	border-right: solid 1px #fff;
+}
+
+.navegador ul li:last-child{
+	padding: 0 0 0 20px;
+	border-right: none;
+}
+
+.navegador ul li a{
+	color: #fff;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* Fin NAV */
 
 
 

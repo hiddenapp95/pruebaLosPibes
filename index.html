@@ -2,10 +2,13 @@
 <html>
 <head>
 	<title>Sitio de Compras</title>
-	<link rel="stylesheet" type="text/css" href="./styles.css">
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="css/all.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 	<header>
+		<!-- Primera parte del header -->
 		<div class="primer_nav">
 			<div class="text-bienv">
 				<h5>Bienvenido a Frano's Electronics</h5>
@@ -13,20 +16,79 @@
 
 			<div class="nav_inicial">
 				<ul>
-					<li>Sucursales</li>
-					<li>Mi Cuenta</li>
-					<li>Cerrar Sesión</li>
+					<li>
+						<a href="#" alt="">Sucursales</a>
+					</li>
+					<li>
+						<a href="#" alt="">Mi Cuenta</a>
+					</li>
+					<li>
+						<a href="#" alt="">Cerrar Sesión</a>
+					</li>
 
 				</ul>
 			</div>
 		</div>
+		<!-- Segunda parte del header -->
 		<div class="inicio">
 			<div class="logo">
 				<img src="images/logo.png" alt="frano electronics logo" />
 			</div>
-			<div class="buscador">
-
+			<form class="buscador_contenedor">
+				<div class="buscador">
+					<input type="text" name="buscar" id="buscar" placeholder="Buscar productos">
+				</div>
+				<div class="b_separador"></div>
+				<div class="b_categoria">
+					<select name="categoria-prod" id="categoria-prod">
+						<option value="0" selected="selected">Categorías</option>
+						<option value="accessorios">Accessorios</option>
+						<option value="camaras">Camaras</option>
+						<option value="pc-componentes">Componentes de PC</option>
+						<option value="gadgets">Gadgets</option>
+						<option value="tv-audio">TV &amp; Audio</option>
+						<option value="video-games-consoles">Juegos &amp; Consoles</option>
+					</select>
+				</div>
+				<div class="b_boton">
+					<button type="submit" class="b_boton_icon">
+						<i class="fas fa-search search_icon"></i>
+					</button>
+				</div>
+			</form>
+			<div class="cart_contenedor">
+				<div class="favoritos">
+					<i class="fas fa-heart fav_icon"></i>
+				</div>
+				<div class="cart">
+					<div class="numb">0</div>
+					<i class="fas fa-shopping-cart cart_icon"></i>
+				</div>
 			</div>
+		</div>
+		<!-- Tercera parte del header - NAV-->
+		<div class="navegador">
+			<ul>
+				<li>
+					<a href="#" alt="">Inicio</a>
+				</li>
+				<li>
+					<a href="#" alt="">TV &amp; Audio</a>
+				</li>
+				<li>
+					<a href="#" alt="">Juegos &amp; Consoles</a>
+				</li>
+				<li>
+					<a href="#" alt="">Gadgets</a>
+				</li>
+				<li>
+					<a href="#" alt="">Camaras</a>
+				</li>
+				<li>
+					<a href="#" alt="">Accessorios</a>
+				</li>
+			</ul>
+
 		</div>
 
 	</header>
